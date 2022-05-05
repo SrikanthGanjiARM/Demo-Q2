@@ -3146,6 +3146,7 @@
         <name>SharingGuestRule</name>
     </types>
     <types>
+        <members>Opportunity.TEST_ROLE</members>
         <members>Opportunity.new_solrole</members>
         <name>SharingCriteriaRule</name>
     </types>
