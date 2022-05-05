@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>new_solrole</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>new solrole</label>
+        <sharedTo>
+            <role>SolutionEngineer</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Existing Customer - Upgrade</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Probability</field>
+            <operation>equals</operation>
+            <value>50</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>oppty_Sharing_rule</fullName>
         <accessLevel>Edit</accessLevel>
         <label>oppty Sharing rule</label>
         <sharedTo>
-            <allInternalUsers/>
+            <allInternalUsers></allInternalUsers>
         </sharedTo>
         <sharedFrom>
-            <allPartnerUsers/>
+            <allPartnerUsers></allPartnerUsers>
         </sharedFrom>
     </sharingOwnerRules>
 </SharingRules>
