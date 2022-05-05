@@ -3313,5 +3313,5 @@
         <members>Case.case notification</members>
         <name>WorkflowRule</name>
     </types>
-    <version>54.0</version>
+    <version>53.0</version>
 </Package>
