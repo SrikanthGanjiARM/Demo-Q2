@@ -1,8 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Account.AccountNumber</members>
+        <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
+        <members>Account.AnnualRevenue</members>
         <members>Account.AutorabitExtId__c</members>
+        <members>Account.BillingAddress</members>
+        <members>Account.ChannelProgramLevelName</members>
+        <members>Account.ChannelProgramName</members>
+        <members>Account.CleanStatus</members>
+        <members>Account.Contact_Email__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.Customer_Id__c</members>
+        <members>Account.Customer_Number__c</members>
+        <members>Account.DandbCompanyId</members>
+        <members>Account.Description</members>
+        <members>Account.DunsNumber</members>
+        <members>Account.Email__c</members>
+        <members>Account.Fax</members>
+        <members>Account.Industry</members>
+        <members>Account.IsCustomerPortal</members>
+        <members>Account.IsExcludedFromRealign</members>
+        <members>Account.IsPartner</members>
+        <members>Account.Jigsaw</members>
+        <members>Account.Match_Billing_Address__c</members>
+        <members>Account.Mobile__c</members>
+        <members>Account.NaicsCode</members>
+        <members>Account.NaicsDesc</members>
+        <members>Account.Name</members>
+        <members>Account.NumberOfEmployees</members>
+        <members>Account.Number_of_Contacts_c__c</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.OperatingHoursId</members>
+        <members>Account.OwnerId</members>
+        <members>Account.Ownership</members>
+        <members>Account.ParentId</members>
+        <members>Account.Phone</members>
+        <members>Account.Potential_Value__c</members>
+        <members>Account.Preferred_Contact_Method__c</members>
+        <members>Account.Pull_Request_Demo__c</members>
+        <members>Account.Rating</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.ShippingAddress</members>
+        <members>Account.Sic</members>
+        <members>Account.SicDesc</members>
+        <members>Account.Site</members>
+        <members>Account.TESTSRIKANTH__c</members>
+        <members>Account.TickerSymbol</members>
+        <members>Account.Tier</members>
+        <members>Account.Tracking_Number__c</members>
+        <members>Account.Tradestyle</members>
+        <members>Account.Type</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>Account.Website</members>
+        <members>Account.YearStarted</members>
+        <members>Account.location__c</members>
+        <members>Account.new_date__c</members>
+        <members>Account.number_of_contacts__c</members>
+        <members>Account.testprofile__c</members>
+        <members>Account.unique_name__c</members>
         <members>IU_Health__c.Customer_Email__c</members>
         <members>IU_Health__c.Customer_Name__c</members>
         <members>IU_Health__c.Phone__c</members>
@@ -11,6 +70,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Account</members>
         <members>IU_Health__c</members>
         <name>CustomObject</name>
     </types>
@@ -19,8 +79,25 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
         <members>IU_Health__c.All</members>
         <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Partner</members>
+        <members>Account.Partner_Account</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Account.NEWWEBLINK</members>
+        <members>Account.SDOC__Email_Docs</members>
+        <members>Account.SDOC__S_Docs</members>
+        <name>WebLink</name>
     </types>
     <version>53.0</version>
 </Package>
